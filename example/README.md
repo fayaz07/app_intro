@@ -1,16 +1,52 @@
-# app_intro_example
+# Complete example
 
-A new Flutter application.
+```
+import 'package:flutter/material.dart';
+import 'package:app_intro/app_intro.dart';
 
-## Getting Started
+void main(){
 
-This project is a starting point for a Flutter application.
+  List<Slide> _slides= [
+    new Slide(
+    'Flutter',
+    'Flutter is an open-source mobile application development SDK created by Google. It is used to develop applications for Android and iOS, as well as being the primary method of creating applications for Google Fuchsia.',
+    'assets/icons/flutter_icon.png'),
 
-A few resources to get you started if this is your first Flutter project:
+    new Slide(
+    'Android',
+    'Android is a mobile operating system developed by Google. It is based on a modified version of the Linux kernel and other open source software, and is designed primarily for touchscreen mobile devices such as smartphones and tablets.',
+    'assets/icons/android.png'),
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+    new Slide(
+    'Apple',
+    'Apple Inc. is an American multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services. It is considered one of the Big Four of technology along with Amazon, Google and Facebook.',
+    'assets/icons/apple.png')
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+  ];
+
+  String button_text = "Login with OTP";
+  VoidCallback _onTnCButtonClick = (){
+                                print('Terms and conditions page');
+                            };
+
+  VoidCallback _onButtonClick = (){
+                                print('Login with OTP');
+                            };
+
+  SingleButtonIntro _appIntro = new SingleButtonIntro(
+                                _slides,
+                                _onTnCButtonClick,
+                                button_text,
+                                _onButtonClick);
+
+  runApp(
+    MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Intro Screens',
+      home: _appIntro,
+    )
+  );
+}
+```
+
+ ![SingleButtonIntro](https://raw.githubusercontent.com/fayaz07/intro_screens/master/single_button_app_intro.gif)
