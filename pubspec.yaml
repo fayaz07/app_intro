@@ -1,6 +1,6 @@
 name: app_intro
 description: A package that helps developers easily build few introduction screens to their app and describe their app. Easy to use and light weight.
-version: 0.0.2
+version: 1.0.0
 author: Fayaz<fayazfz07@gmail.com>
 homepage: https://github.com/fayaz07/intro_screens
 
