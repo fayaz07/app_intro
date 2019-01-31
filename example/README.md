@@ -1,6 +1,6 @@
 # Complete example
 
-```
+```dart
 import 'package:flutter/material.dart';
 import 'package:app_intro/app_intro.dart';
 
@@ -49,4 +49,5 @@ void main(){
 }
 ```
 
- ![SingleButtonIntro](https://raw.githubusercontent.com/fayaz07/intro_screens/master/single_button_app_intro.gif)
+## Demo
+<img src="https://raw.githubusercontent.com/fayaz07/app_intro/master/single_button_app_intro.gif" width="350" height="620" alt="ProgressDialog Demo" />
