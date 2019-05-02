@@ -4,7 +4,7 @@ A light weight package that helps developers easily provide few introduction scr
 [Get the library](https://pub.dartlang.org/packages/app_intro)   |   [Example](https://github.com/fayaz07/app_intro/tree/master/example) 
 
 ## Demo
-<img src="https://raw.githubusercontent.com/fayaz07/app_intro/master/single_button_app_intro.gif" width="350" height="620" alt="ProgressDialog Demo" />
+<img src="https://raw.githubusercontent.com/fayaz07/app_intro/master/single_button_app_intro.gif" width="350" height="620" alt="Demo" />
 
 
 # Usage
