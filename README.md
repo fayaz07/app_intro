@@ -3,6 +3,18 @@ A light weight package that helps developers easily provide few introduction scr
 
 [Get the library](https://pub.dartlang.org/packages/app_intro)   |   [Example](https://github.com/fayaz07/app_intro/tree/master/example) 
 
+[![](https://img.shields.io/badge/dontate-Buy%20Me%20a%20Coffee-blueviolet)](https://www.buymeacoffee.com/fayaz) &nbsp; 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-in-0e76a8)](https://www.linkedin.com/in/fayaz07) &nbsp; [![Follow](https://img.shields.io/github/followers/fayaz07?style=social)](https://github.com/fayaz07) &nbsp; [![Fork](https://img.shields.io/github/forks/fayaz07/app_intro?style=social)](https://github.com/fayaz07/app_intro/fork) &nbsp; [![Star](https://img.shields.io/github/stars/fayaz07/app_intro?style=social)](https://github.com/fayaz07/app_intro/star) &nbsp; [![Watches](https://img.shields.io/github/watchers/fayaz07/app_intro?style=social)](https://github.com/fayaz07/app_intro/) 
+
+[![Get the library](https://img.shields.io/badge/Get%20library-pub-blue)](https://pub.dartlang.org/packages/app_intro) &nbsp; [![Example](https://img.shields.io/badge/Example-Ex-success)](https://github.com/fayaz07/app_intro/tree/master/example)
+
+
+
+## Supported Dart Versions
+**Dart SDK version >= 2.1.0**
+
+
+
 ## Demo
 <img src="https://raw.githubusercontent.com/fayaz07/app_intro/master/single_button_app_intro.gif" width="350" height="620" alt="Demo" />
 
